@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+.venv/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment
+.env
+.env.*
+EOF
+
